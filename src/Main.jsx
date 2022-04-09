@@ -17,6 +17,7 @@ const Main = () => {
             <Route path="/cover" element={<Cover />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
+            {/*  */}
         </Routes>
     );
 };
