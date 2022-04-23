@@ -147,7 +147,7 @@ code {
 }
 
 .card-recent {
-  width: 435px;
+  width: auto;
   height: 82px;
   border-radius: 20px;
   border-color: transparent;
