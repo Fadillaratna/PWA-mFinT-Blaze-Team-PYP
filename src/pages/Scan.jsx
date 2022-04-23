@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { BsArrowLeft, BsShareFill } from 'react-icons/bs';
 import { MdQrCode2, MdQrCodeScanner } from 'react-icons/md';
+import { AiOutlineScan } from 'react-icons/ai';
 import { NavLink } from 'react-router-dom'
 
-class QR extends Component {
+class Scan extends Component {
     render() {
         return (
             <div className='con'><br />
@@ -34,35 +35,33 @@ class QR extends Component {
                         <div className="row p-4 ms-3 me-3">
                             <div className="col-6 ">
                                 <NavLink to="/scan" className="a">
-                                    <MdQrCodeScanner size={23} id="myqr" />
-                                    <h5 id="text-scan" >Scan QR Code</h5>
+                                    <MdQrCodeScanner size={23} id="qr" />
+                                    <h5 id="text-sc" >Scan QR Code</h5>
                                 </NavLink>
-
                             </div>
                             <div className="col-6">
                                 <NavLink to="/qr" className="a">
-                                    <MdQrCode2 size={23} id="qr" />
-                                    <h5 id="text-sc">My QR Code</h5>
+                                    <MdQrCode2 size={23} id="myqr" />
+                                    <h5 id="text-scan">My QR Code</h5>
                                 </NavLink>
-
                             </div>
+
                         </div>
                     </div>
                 </div>
 
                 <div className="black-card mt-5 justify-content-center p-4">
-                    <MdQrCode2 size={200} id="mdqr" className='mx-auto d-block mt-4' />
+                    <AiOutlineScan size={200} id="mdqr" className='mx-auto d-block mt-4' />
                     <div className="highlight mt-4 ms-3">
                         <div className="row p-4">
                             <div className="col-2">
                                 <img src="/assets/lamp.png" alt="" className='lamp' />
                             </div>
                             <div className="col-10" id="desc">
-                                <h4 className='ask'>Show the QR Code and scan to proced transaction</h4>
+                                <h4 className='ask'>Align QR Code to fill inside<br></br>the frame.</h4>
                                 <h4 className='know'>I understand</h4>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -72,4 +71,4 @@ class QR extends Component {
     }
 }
 
-export default QR;
+export default Scan;

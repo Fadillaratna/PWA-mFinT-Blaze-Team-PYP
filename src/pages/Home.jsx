@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Carousel, Nav } from 'react-bootstrap'
 import { BsArrowRight } from 'react-icons/bs'
+import { FaRobot, FaHandHoldingHeart } from 'react-icons/fa';
+import { MdAccountBalance, MdQrCode2 } from 'react-icons/md';
 import { NavLink } from 'react-router-dom'
 import Navigation from '../component/Navigation'
 
@@ -73,27 +75,35 @@ export default class Home extends Component {
                         </div>
                         <div className="row mb-4">
                             <div className="col-3" id="p">
+                            <NavLink to="/ba" className="a">
                                 <div className="card text-center align-items-center" id="card-feature-1">
-                                    <img src="/assets/ba.png" className="card-img-top mb-2 mt-3" alt="{product.title} " id="icon-feature" />
+                                    <div className='img-icon'><MdAccountBalance className='a' size={25} id="icon-feature" /></div>
                                     <h6 className='text-ft mt-1'>BAFinT</h6>
                                 </div>
+                                </NavLink>
+
                             </div>
                             <div className="col-3" id="p">
-                                <div className="card text-center align-items-center" id="card-feature-2">
-                                    <img src="/assets/robo.png" className="card-img-top mb-2 mt-3" alt="{product.title} " id="icon-feature" />
-                                    <h6 className='text-ft mt-1'>Robobot</h6>
-                                </div>
+                                <NavLink to="/robobot" className="a">
+                                    <div className="card text-center align-items-center" id="card-feature-2">
+                                        <div className='img-icon'><FaRobot className='a' size={25} id="icon-feature" /></div>
+                                        <h6 className='text-ft mt-1'>Robobot</h6>
+                                    </div>
+                                </NavLink>
+
                             </div>
                             <div className="col-3" id="p">
-                                <div className="card text-center align-items-center" id="card-feature-3">
-                                    <img src="/assets/charity.png" className="card-img-top mb-2 mt-3" alt="{product.title} " id="icon-feature" />
-                                    <h6 className='text-ft mt-1'>Charity</h6>
-                                </div>
+                                <NavLink to="/charity" className="a">
+                                    <div className="card text-center align-items-center" id="card-feature-3">
+                                        <div className='img-icon'><FaHandHoldingHeart className='a' size={25} id="icon-feature" /></div>
+                                        <h6 className='text-ft mt-1'>Charity</h6>
+                                    </div>
+                                </NavLink>
                             </div>
                             <div className="col-3" id="p">
                                 <NavLink to="/qr" className="a">
                                     <div className="card text-center align-items-center" id="card-feature-4">
-                                        <img src="/assets/qr.png" className="card-img-top mb-2 mt-3" alt="{product.title} " id="icon-feature" />
+                                        <div className='img-icon'><MdQrCode2 className='icon' size={25} id="icon-feature" /></div>
                                         <h6 className='text-ft mt-1'>QR</h6>
                                     </div>
                                 </NavLink>

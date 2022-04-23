@@ -7,6 +7,11 @@ import Account from './pages/Account';
 import Cover from './pages/Cover';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
+import Robobot from './pages/Robobot';
+import Charity from './pages/Charity';
+import Ba from './pages/Ba';
+import Scan from './pages/Scan';
+import Bri from './pages/Bri';
 
 const Main = () => {
     return (
@@ -17,6 +22,11 @@ const Main = () => {
             <Route path="/cover" element={<Cover />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/robobot" element={<Robobot />} />
+            <Route path="/charity" element={<Charity />} />
+            <Route path="/ba" element={<Ba />} />
+            <Route path="/scan" element={<Scan />} />
+            <Route path="/bank/bri" element={<Bri />} />
             {/*  */}
         </Routes>
     );

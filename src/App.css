@@ -3,8 +3,8 @@
 }
 
 .app{
-  background-color: #CACAC9;
-  min-height: auto!important;
+  /* background-color: #CACAC9; */
+  min-height: auto;
 }
 
 .App-logo {
