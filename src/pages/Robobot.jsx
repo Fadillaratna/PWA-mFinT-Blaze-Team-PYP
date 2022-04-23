@@ -111,22 +111,25 @@ class Robobot extends Component {
         return (
             <div>
                 <div className="con"><br />
-                    <div className="row me-4 ms-4 mb-4">
+                    <div className="row me-4 ms-4 mb-5">
                         <div className="col-2">
                             <NavLink className="a" to="/"><BsArrowLeft className='arrow-left' /></NavLink>
                         </div>
                         <div className="col-6">
                             <h4 className='title mt-1'>RoboBot</h4>
                         </div>
-                        
+
                     </div>
 
-                    <div id="chat-circle" className="btn btn-raised">
-                        <div id="chat-overlay"></div>
-                        <BsFillChatDotsFill size={30} />
+                    <div className="ms-4">
+                        <div id="chat-circle" className="btn btn-raised">
+                            <div id="chat-overlay"></div>
+                            <BsFillChatDotsFill size={30} />
+                        </div>
                     </div>
 
-                    <div className="chat-box">
+                    
+                    <div className="chat-box mt-5">
                         <div className="chat-box-header text-center">
                             RoboBot
                             <span className="chat-box-toggle"><BiX size={25} /></span>
@@ -140,8 +143,15 @@ class Robobot extends Component {
                         </div>
                         <div className="chat-input">
                             <form>
-                                <input type="text" id="chat-input" placeholder="Send a message..." />
+                                <div className="row">
+                                    <div className="col-10">
+                                        <input type="text" id="chat-input" placeholder="Send a message..." />
+                                    </div>
+                                    <div className="col-2">
                                 <button type="submit" className="chat-submit" id="chat-submit"><BiSend size={25} /></button>
+
+                                    </div>
+                                </div>
                             </form>
                         </div>
                     </div>

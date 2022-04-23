@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import { BsFillChatDotsFill, BsArrowLeft } from 'react-icons/bs'
-import { IoMdArrowBack, IoMdShare, IoMdQrScanner } from 'react-icons/io';
+import { IoMdArrowBack} from 'react-icons/io';
 
 import Navigation from '../component/Navigation';
 

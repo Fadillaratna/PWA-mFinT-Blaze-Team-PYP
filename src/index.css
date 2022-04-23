@@ -585,7 +585,8 @@ code {
 #chat-circle {
   position: fixed;
   bottom: 20px;
-  right: 600px;
+  /* right: 600px; */
+  float: right;
   background: #000000;
   width: 80px;
   height: 80px;
@@ -621,14 +622,16 @@ code {
 .chat-box {
   display: none;
   background: #efefef;
-  position: fixed;
-  right: 575px;
-  bottom: 100px;
-  width: 380px;
+  /* position: fixed; */
+  /* right: 575px; */
+  bottom: 200px;
+  width: 350px;
+  margin: 0 auto;
+  left: 0%;
   max-width: 400px;
   max-height: 100vh;
   border-radius: 5px;
-  /*   box-shadow: 0px 5px 35px 9px #464a92; */
+  box-shadow: 0px 5px 35px 9px #464a92;
   box-shadow: 0px 5px 35px 9px #ccc;
 }
 
@@ -715,7 +718,7 @@ code {
 }
 
 .chat-submit {
-  position: absolute;
+  /* position: absolute; */
   bottom: 3px;
   right: 10px;
   background: transparent;
@@ -725,6 +728,8 @@ code {
   color: #000000;
   width: 35px;
   height: 35px;
+  margin-left: -10px;
+  margin-top: 5px;
 }
 
 .chat-logs {
@@ -958,6 +963,11 @@ code {
 
 .prpl{
   color: #5F2DB7;
+}
+
+#bckbtn{
+  color: black;
+  margin-top: -40%;
 }
 /* .setting{
   width: 100%;
