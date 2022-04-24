@@ -12,11 +12,11 @@ export default class Bri extends Component {
         return (
             <div className='con'>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-g58PGblfdGXaa4OjRRDrfunOAx4oW4a1pA&usqp=CAU" alt="" id="flyer-bank" />
-                <NavLink to="/ba" className="a"><IoMdArrowBack size={30} className="ms-4" id="bckbtn"/></NavLink>
+                <NavLink to="/ba" className="a" id="aaa"><IoMdArrowBack size={30} className="ms-4" id="bckbtn"/></NavLink>
                 <div className="ms-4 me-4">
                     <div className="ttl mb-4">
                         <h4 id="fs" className='mt-4 mb-2'>Financial Services</h4>
-                        <h3 id="bank-nm">Bank BRI</h3>
+                        <h3 id="bank-nm" className='text-black'>Bank BRI</h3>
                     </div>
 
                     <div className="dsc mb-4">

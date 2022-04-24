@@ -857,6 +857,7 @@ code {
   font-size: 18px;
   line-height: 155.02%;
   letter-spacing: -0.04em;
+  color: #000000;
 }
 
 #desc-bank {
@@ -918,6 +919,10 @@ code {
   border-radius: 10px;
   float: right;
   margin-top: -40px;
+}
+
+#aaa{
+  color: black;
 }
 
 #review-card {
