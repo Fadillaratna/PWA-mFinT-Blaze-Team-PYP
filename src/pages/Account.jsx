@@ -35,18 +35,6 @@ export default class Account extends Component {
                         <div className="row">
                             <div className="col-3 mt-3">
                                 <div className="rect">
-                                    <FaFingerprint className='mx-auto d-block' id="icon" size={25} />
-                                </div>
-                            </div>
-                            <div className="col-9 mt-3">
-                                <h5 className='mt-1 setting-text'>Security Fingerprint</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="mx-auto d-block mb-3" id="card-setting">
-                        <div className="row">
-                            <div className="col-3 mt-3">
-                                <div className="rect">
                                     <HiLink className='mx-auto d-block' id="icon" size={25} />
                                 </div>
                             </div>
