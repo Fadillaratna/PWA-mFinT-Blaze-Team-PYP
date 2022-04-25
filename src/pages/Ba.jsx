@@ -16,7 +16,7 @@ export default class Ba extends Component {
                         </NavLink>
                     </div>
                     <div className="col-4">
-                        <h2 className='titles'>Mentoring Bank</h2>
+                        <h2 className='titles'>Monitoring Bank</h2>
                     </div>
                 </div>
                 <NavLink to="/bank/bri" className="a">
