@@ -28,7 +28,7 @@ export default class Reminder extends Component {
                                             <img src="/assets/bill.png" id="bill" className="mt-2" alt="" />
                                         </div>
                                         <div className="col-4 mt-4" id="txt">
-                                            <h4 id="recent-text" >Pay your bills</h4>
+                                            <h4 id="recent-text" >Pay bills</h4>
                                             <p id="bill-text">Electricity bill</p>
                                         </div>
                                         <div className="col-5 mt-4" id="ket">
