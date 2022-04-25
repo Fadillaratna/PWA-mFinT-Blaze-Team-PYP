@@ -118,9 +118,7 @@ export default class Home extends Component {
                         <div className="col-11">
                             <h4 className='text-feature mb-2'>Recent Activity</h4>
                         </div>
-                        <div className="col-1 mt-2">
-                            <BsArrowRight id="arrow" />
-                        </div>
+                       
                     </div>
                     <div className="justify-content-center">
                         <div className="card-recent mb-2">
