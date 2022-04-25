@@ -17,7 +17,7 @@ export default class Navigation extends Component {
                                     <NavLink className="nav-link" to="/products"><i className="fa fa-signal" id="icon-nav"></i></NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/gallery"><i className="fa fa-bell" id="icon-nav"></i></NavLink>
+                                    <NavLink className="nav-link" to="/reminder"><i className="fa fa-bell" id="icon-nav"></i></NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/account"><i className="fa fa-user-circle" id="icon-nav"></i></NavLink>

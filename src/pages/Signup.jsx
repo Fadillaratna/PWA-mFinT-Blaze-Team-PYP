@@ -20,7 +20,7 @@ export default class Signup extends Component {
                             <input type="email" name="" id="form" className='form-control' placeholder='Type your email here' value="blazejh@gmail.com" />
                         </div>
                         <div className="form-group mb-4">
-                            <label className='label-form'>Email</label>
+                            <label className='label-form'>Password</label>
                             <input type="password" name="" id="form" className='form-control' placeholder='Type your email here' value="blazenih" />
                         </div>
                         <NavLink to="/" className="a"><button className='mx-auto d-block mb-3' id="up">Sign Up</button></NavLink>

@@ -12,6 +12,7 @@ import Charity from './pages/Charity';
 import Ba from './pages/Ba';
 import Scan from './pages/Scan';
 import Bri from './pages/Bri';
+import Reminder from './pages/Reminder';
 
 const Main = () => {
     return (
@@ -26,6 +27,7 @@ const Main = () => {
             <Route path="/charity" element={<Charity />} />
             <Route path="/ba" element={<Ba />} />
             <Route path="/scan" element={<Scan />} />
+            <Route path="/reminder" element={<Reminder />} />
             <Route path="/bank/bri" element={<Bri />} />
             {/*  */}
         </Routes>

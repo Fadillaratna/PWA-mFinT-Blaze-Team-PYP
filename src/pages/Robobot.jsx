@@ -96,15 +96,15 @@ class Robobot extends Component {
                 generate_message(name, 'self');
             })
 
-            $("#chat-circle").click(function () {
-                $("#chat-circle").toggle('scale');
-                $(".chat-box").toggle('scale');
-            })
+            // $("#chat-circle").click(function () {
+                // $("#chat-circle").toggle('scale');
+                $(".chat-box").toggle('scale'); //ini
+            // })
 
-            $(".chat-box-toggle").click(function () {
-                $("#chat-circle").toggle('scale');
-                $(".chat-box").toggle('scale');
-            })
+            // $(".chat-box-toggle").click(function () {
+            //     $("#chat-circle").toggle('scale');
+            //     $(".chat-box").toggle('scale');
+            // })
 
         })
 
@@ -121,18 +121,18 @@ class Robobot extends Component {
 
                     </div>
 
-                    <div className="ms-4">
+                    {/* <div className="ms-4">
                         <div id="chat-circle" className="btn btn-raised">
                             <div id="chat-overlay"></div>
                             <BsFillChatDotsFill size={30} />
                         </div>
-                    </div>
+                    </div> */}
 
                     
                     <div className="chat-box mt-5">
                         <div className="chat-box-header text-center">
                             RoboBot
-                            <span className="chat-box-toggle"><BiX size={25} /></span>
+                            {/* <span className="chat-box-toggle"><BiX size={25} /></span> */}
                         </div>
                         <div className="chat-box-body">
                             <div className="chat-box-overlay">
